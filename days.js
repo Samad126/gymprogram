@@ -69,7 +69,7 @@ findWorkout.forEach(function (eachSection) {
                 allWorkouts.innerHTML="";
                 const notFound = document.createElement("h4");
                 notFound.style.color = "#fff";
-                notFound.innerHTML = "Gün Tapılmadı";
+                notFound.innerHTML = "Hərəkət Tapılmadı";
                 notFound.className = "notfound";
                 allWorkouts.appendChild(notFound);
             }
