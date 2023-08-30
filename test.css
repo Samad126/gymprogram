@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+}
+
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+header {
+    border-bottom: solid 1px #fff;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    color: brown;
+}
+
+h1 {
+    color: red;
+}
+
+.copy {
+    color: #fff; 
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    height: 100%;
+    overflow: auto;
+    padding: 40px;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.chest,
+.biceps,
+.triceps,
+.back,
+.shoulder,
+.leg {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    border-radius: 8px;
+}
+
+.chest:visited,
+.biceps:visited,
+.triceps:visited,
+.back:visited,
+.shoulder:visited,
+.leg:visited,
+.chest:link,
+.biceps:link,
+.triceps:link,
+.back:link,
+.shoulder:link,
+.leg:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.days {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.return:visited,
+.return:link {
+    text-decoration: none;
+}
+
+.return button {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main>div {
+    width: 70%;
+    cursor: pointer;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.main > div > p {
+    color: #fff;
+    margin: 0;
+}
+
+span {
+    color: #fff;
+}
+
+.main > div:nth-of-type(odd) {
+    background-color: #483c32;
+}
+
+.main > div:nth-of-type(even) {
+    background-color: gray;
+}
+
+@media only screen and (max-width:700px) {   
+    .main>div{
+        width: 95%;
+    }
+}
+
