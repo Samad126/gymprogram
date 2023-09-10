@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Gym və Proqramlar</h1>
+    </header>
+    <main class="main">
+        <h2 class="test">Kürək günü. <span class="detal">Hərkətin üzərinə bas və detalları gör</span></h2>
+        <section>
+            <input type="text" id="findWorkout" placeholder="Hərəkəti axtar....">
+            <input type="submit" value="Axtar">
+        </section>
+        <div class="all">
+            <div>
+                <p>Barrel row</p>
+                <div>
+                    <video controls width="200px" height="fit-content">
+                        <source src="videos/Back/Barbell Bent Over Row.mp4" type="video/mp4">
+                    </video>
+                    <div class="sets">
+                        <p>Edilmiş Setlər: <span class="doneSets">0</span> / <span class="max">4</span></p>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="addMaxSet" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow; font-size: 13px;">Maksimum set sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Maks
+                            seti əlavə et</button>
+                    </div>
+                    <div class="addRep" style="display: flex; align-items: center; gap: 5px;">
+                        <p style="color: yellow; font-size: 13px;">Rep sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            Repi sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            sıfırla</button>
+                        <div class="addedRep" style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş replər:</p>
+                        </div>
+                    </div>
+                    <div class="addWeight" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow;">Çəki yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            çəkini sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            sıfırla</button>
+                        <div style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş çəkilər:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Lat pulldown</p>
+                <div>
+                    <video controls width="200px" height="fit-content">
+                        <source src="videos/Back/Normal Grip Pulldown.mp4" type="video/mp4">
+                    </video>
+                    <div class="sets">
+                        <p>Edilmiş Setlər: <span class="doneSets">0</span> / <span class="max">4</span></p>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="addMaxSet" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow; font-size: 13px;">Maksimum set sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Maks
+                            seti əlavə et</button>
+                    </div>
+                    <div class="addRep" style="display: flex; align-items: center; gap: 5px;">
+                        <p style="color: yellow; font-size: 13px;">Rep sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            Repi sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            sıfırla</button>
+                        <div class="addedRep" style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş replər:</p>
+                        </div>
+                    </div>
+                    <div class="addWeight" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow;">Çəki yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            çəkini sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            sıfırla</button>
+                        <div style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş çəkilər:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Seated cable row</p>
+                <div>
+                    <video controls width="200px" height="fit-content">
+                        <source src="videos/Back/Seated Cable Row.mp4" type="video/mp4">
+                    </video>
+                    <div class="sets">
+                        <p>Edilmiş Setlər: <span class="doneSets">0</span> / <span class="max">4</span></p>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="addMaxSet" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow; font-size: 13px;">Maksimum set sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Maks
+                            seti əlavə et</button>
+                    </div>
+                    <div class="addRep" style="display: flex; align-items: center; gap: 5px;">
+                        <p style="color: yellow; font-size: 13px;">Rep sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            Repi sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            sıfırla</button>
+                        <div class="addedRep" style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş replər:</p>
+                        </div>
+                    </div>
+                    <div class="addWeight" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow;">Çəki yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            çəkini sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            sıfırla</button>
+                        <div style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş çəkilər:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Deadlift</p>
+                <div>
+                    <video controls width="200px" height="fit-content">
+                        <source src="videos/Back/Deadlift.mp4" type="video/mp4">
+                    </video>
+                    <div class="sets">
+                        <p>Edilmiş Setlər: <span class="doneSets">0</span> / <span class="max">4</span></p>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="addMaxSet" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow; font-size: 13px;">Maksimum set sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Maks
+                            seti əlavə et</button>
+                    </div>
+                    <div class="addRep" style="display: flex; align-items: center; gap: 5px;">
+                        <p style="color: yellow; font-size: 13px;">Rep sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            Repi sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            sıfırla</button>
+                        <div class="addedRep" style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş replər:</p>
+                        </div>
+                    </div>
+                    <div class="addWeight" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow;">Çəki yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            çəkini sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            sıfırla</button>
+                        <div style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş çəkilər:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p>Cable pulldown</p>
+                <div>
+                    <video controls width="200px" height="200px">
+                        <source src="videos/Back/3 Mistakes You’re Making With The Rope Pull Over.mp4" type="video/mp4">
+                    </video>
+                    <div class="sets">
+                        <p>Edilmiş Setlər: <span class="doneSets">0</span> / <span class="max">3</span></p>
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="addMaxSet" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow; font-size: 13px;">Maksimum set sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Maks
+                            seti əlavə et</button>
+                    </div>
+                    <div class="addRep" style="display: flex; align-items: center; gap: 5px;">
+                        <p style="color: yellow; font-size: 13px;">Rep sayın yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            Repi sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Repi
+                            sıfırla</button>
+                        <div class="addedRep" style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş replər:</p>
+                        </div>
+                    </div>
+                    <div class="addWeight" style="display: flex; gap: 5px; align-items: center;">
+                        <p style="color: yellow;">Çəki yaz:</p>
+                        <input type="number">
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            əlavə et</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Sonuncu
+                            çəkini sil</button>
+                        <button
+                            style="border: none; border-radius: 35px; background-color: rgb(51, 255, 0); color: #002aff; padding: 5px; cursor: pointer;">Çəki
+                            sıfırla</button>
+                        <div style="display: flex; align-items: center;">
+                            <p style="color: yellow;">Əlavə edilmiş çəkilər:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <a href="selfpreparedmain.html" class="return">
+        <button>ANA SƏHİFƏYƏ QAYIT</button>
+    </a>
+    <footer>
+        <p class="copy">&copy; Copyright 2023 Samad Alakbarov</p>
+    </footer>
+</body>
+<script src="daysself.js"></script>
+
+</html>
